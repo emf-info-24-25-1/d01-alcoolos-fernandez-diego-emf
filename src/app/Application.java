@@ -1,17 +1,15 @@
 package app;
 
 public class Application {
-    
-        //
-        //              )        (                 ) (           (         (
-        //           ( /(   *   ))\ )        (  ( /( )\ )        )\ )  (   )\ )
-        //     (   ( )\())` )  /(()/((       )\ )\()|()/(  (    (()/(  )\ (()/(
-        //     )\  )((_)\  ( )(_))(_))\    (((_|(_)\ /(_)) )\    /(_)|((_) /(_))
-        //    ((_)((_)((_)(_(_()|_))((_)   )\___ ((_|_))_ ((_)  (_)) )\___(_))
-        //    __   _____ _____ ___ ___    ___ ___  ___  ___   ___ ___ ___   _
-        //    \ \ / / _ \_   _| _ \ __|  / __/ _ \|   \| __| |_ _/ __|_ _| | |
-        //     \ V / (_) || | |   / _|  | (_| (_) | |) | _|   | | (__ | |  |_|
-        //      \_/ \___/ |_| |_|_\___|  \___\___/|___/|___| |___\___|___| (_)
-        //
+    public static void main(String[] args) {
+        Ami jb = new Ami("Jean-baptiste", 4);
+        Ami noam = new Ami("Noam", 1);
+        Ami ethan = new Ami("Ethan", 3);
 
+        jb.boitUneBierre();
+        System.out.println("");
+        noam.boitUneBierre();
+        System.out.println("");
+        ethan.boitUneBierre();
+    }
 }
